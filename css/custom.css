@@ -1,1 +1,9 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.display-flex {
+  display: flex;
+}
+
+.p-l-10 {
+  padding-left: 10px;
+}

@@ -1274,9 +1274,6 @@ initializeMaps();
 
 // End of Maps
 
-
-
-
 // Prepare Signup Form - It is used to retrieve form details from an iframe Mail Chimp or Campaign Monitor form.
 
 function prepareSignup(iFrame){
@@ -1386,4 +1383,15 @@ var mr_cookies = {
 |*|  END COOKIE LIBRARY
 \*/
 
+resetRadios = function() {
+  document.querySelectorAll('.radio-option').forEach(function (option) {
+    option.classList.remove('checked');
+  });
+  document.querySelectorAll('.radio-value').forEach(function (option) {
+    option.checked = false;
+  });
+}
 
+$('#other').on('click', function() {
+  resetRadios();
+})
