@@ -7,3 +7,18 @@
 .p-l-10 {
   padding-left: 10px;
 }
+
+.things-to-know {
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.about-text {
+  margin-bottom: 10px;
+  display: block;
+}
+
+a {
+  cursor: pointer;
+}
