@@ -22,3 +22,46 @@
 a {
   cursor: pointer;
 }
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-item {
+  margin-bottom: 15px;
+}
+
+.footer-img {
+  opacity: unset;
+  height: 75px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+}
+
+.doterra-img {
+  width: 50% !important;
+}
+
+.product-img-container {
+  display: flex !important;
+  justify-content: center;
+}
+
+@media all and (max-width: 767px) {
+  .product-item {
+    flex-direction: column;
+  }
+
+  .offset-product .description-container {
+    order: 2;
+  }
+
+  .offset-product .image-container {
+    order: 1;
+  }
+}
