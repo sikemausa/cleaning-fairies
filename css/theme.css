@@ -897,8 +897,8 @@ nav .btn,
   top: 1px;
 }
 .nav-bar {
-  height: 55px;
-  max-height: 55px;
+  height: 100px;
+  max-height: 100px;
   line-height: 53px;
   border-bottom: 1px solid #ccc;
 }
@@ -907,8 +907,9 @@ nav .btn,
   height: 55px;
 }
 .nav-bar a {
-  display: inline-block;
-  height: 55px;
+  display: flex;
+  align-items: center;
+  height: 100px;
 }
 .logo {
   max-height: 60%;

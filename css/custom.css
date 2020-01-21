@@ -19,6 +19,19 @@
   display: block;
 }
 
+.residential-text {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.residential-title {
+  height: 500px;
+}
+
+.residential-title .background-image-holder { 
+  top: -250px !important;
+}
+
 a {
   cursor: pointer;
 }
@@ -63,5 +76,19 @@ a {
 
   .offset-product .image-container {
     order: 1;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .mobile-toggle.visible-xs {
+    border-left: none !important;
+    display: flex !important;
+    align-items: center;
+    border: none;
+    height: 100px;
+  }
+
+  nav.bg-dark .mobile-toggle {
+    border: none !important;
   }
 }
