@@ -17,7 +17,7 @@
 }
 
 .weight-bold {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .has-dropdown:after {
@@ -44,10 +44,13 @@
 
 @media screen and (max-width: 800px) {
   .icon-tabs .rooms .room {
-    width: 25%;
+    width: 40%;
   }
 }
 
+.clean-benefits {
+  margin-left: 20px;
+}
 
 .things-to-know {
   text-align: left;
