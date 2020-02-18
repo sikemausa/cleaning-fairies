@@ -42,6 +42,10 @@
   text-align: center;
 }
 
+.clean-benefits li {
+  list-style: disc;
+}
+
 @media screen and (max-width: 800px) {
   .icon-tabs .rooms .room {
     width: 40%;
@@ -77,6 +81,14 @@
   height: 500px;
 }
 
+.image-tile {
+  color: #666666;
+}
+
+.soft-scrub-image {
+  width: 25% !important;
+}
+
 .residential-title .background-image-holder { 
   top: -250px !important;
 }
@@ -107,6 +119,10 @@ a {
 
 .doterra-img {
   width: 50% !important;
+}
+
+.call-in-cleans {
+  margin-top: 24px;
 }
 
 .product-img-container {
