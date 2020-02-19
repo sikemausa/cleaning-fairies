@@ -119,6 +119,7 @@ a {
 
 .doterra-img {
   width: 50% !important;
+  height: instrinsic;
 }
 
 .call-in-cleans {
