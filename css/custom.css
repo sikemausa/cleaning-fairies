@@ -159,3 +159,7 @@ a {
     border: none !important;
   }
 }
+
+.description-container {
+  width: 100%;
+}
