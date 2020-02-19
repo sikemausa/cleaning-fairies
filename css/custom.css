@@ -87,6 +87,7 @@
 
 .soft-scrub-image {
   width: 25% !important;
+  height: intrinsic;
 }
 
 .residential-title .background-image-holder { 
@@ -119,7 +120,7 @@ a {
 
 .doterra-img {
   width: 50% !important;
-  height: instrinsic;
+  height: intrinsic;
 }
 
 .call-in-cleans {
