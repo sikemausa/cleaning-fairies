@@ -174,10 +174,6 @@ a {
   width: 100%;
 }
 
-section {
-  padding-bottom: 0;
-}
-
 #contact {
   padding-bottom: 96px;
 }
@@ -189,4 +185,8 @@ section {
 
 .product-single {
   margin-bottom: 75px;
+}
+
+.tabbed-selectors {
+  padding-bottom: 0;
 }
