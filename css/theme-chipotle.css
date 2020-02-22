@@ -462,7 +462,7 @@ a {
   opacity: 1;
 }
 a:hover {
-  color: #d99206;
+  color: #d99006;
   text-decoration: none;
 }
 .label {
@@ -1971,7 +1971,7 @@ select:hover {
 .radio-option.checked .inner {
   background: #f9ad19;
 }
-@media all and (min-width: 991px) {
+@media all and (min-width: 990px) {
   input.col-md-6,
   button.col-md-6 {
     width: 49%;
@@ -2715,7 +2715,7 @@ button[type="submit"] .form-loading {
   background: #f2a206;
 }
 .feature-color:nth-of-type(3) {
-  background: #d99206;
+  background: #d99006;
 }
 .feature-5 {
   height: 33.333333vw;

@@ -1972,7 +1972,7 @@ select:hover {
 .radio-option.checked .inner {
   background: #47b475;
 }
-@media all and (min-width: 991px) {
+@media all and (min-width: 990px) {
   input.col-md-6,
   button.col-md-6 {
     width: 49%;

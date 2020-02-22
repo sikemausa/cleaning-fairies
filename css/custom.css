@@ -154,9 +154,13 @@ a {
     display: flex;
     justify-content: center;
   }
+
+  #contact .row {
+    flex-direction: column;
+  }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 990px) {
   .mobile-toggle.visible-xs {
     border-left: none !important;
     display: flex !important;
