@@ -86,7 +86,7 @@
 }
 
 .soft-scrub-image {
-  width: 25% !important;
+  width: 100px !important;
   height: intrinsic;
 }
 
@@ -119,7 +119,7 @@ a {
 }
 
 .doterra-img {
-  width: 50% !important;
+  width: 300px !important;
   height: intrinsic;
 }
 
@@ -135,14 +135,24 @@ a {
 @media all and (max-width: 767px) {
   .product-item {
     flex-direction: column;
+    padding-bottom: 50px;
   }
 
-  .offset-product .description-container {
+  .description-container {
     order: 2;
   }
 
-  .offset-product .image-container {
+  .image-container {
     order: 1;
+  }
+
+  .doterra-img {
+    width: 200px !important;
+  }
+
+  .add-to-cart {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -162,4 +172,21 @@ a {
 
 .description-container {
   width: 100%;
+}
+
+section {
+  padding-bottom: 0;
+}
+
+#contact {
+  padding-bottom: 96px;
+}
+
+#contact .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-single {
+  margin-bottom: 75px;
 }
