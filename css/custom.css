@@ -167,6 +167,14 @@ a {
   .contact-form {
     height: 2250px;
   }
+
+  .residential-title .background-image-holder { 
+    top: 0 !important;
+  }
+
+  .has-dropdown:after {
+    top: 0;
+  }
 }
 
 @media all and (max-width: 990px) {
