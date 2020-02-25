@@ -1,4 +1,4 @@
-/****** PLACE YOUR CUSTOM STYLES HERE ******/
+/****** PLACE contact-formUR CUSTOM STYLES HERE ******/
 
 .display-flex {
   display: flex;
@@ -132,6 +132,11 @@ a {
   justify-content: center;
 }
 
+.contact-form {
+  height: 600px;
+  overflow: scroll;
+}
+
 @media all and (max-width: 767px) {
   .product-item {
     flex-direction: column;
@@ -157,6 +162,10 @@ a {
 
   #contact .row {
     flex-direction: column;
+  }
+
+  .contact-form {
+    height: 2250px;
   }
 }
 
